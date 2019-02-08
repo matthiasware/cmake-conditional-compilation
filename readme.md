@@ -6,5 +6,5 @@ Solution to the following problem:
 - There are different requirement for each implementation e.g:
 	- AVX2 for one implementation
 	- SSE & OpenCV for another implementation
-- At compile time we want to choose the right implementation depending on the requirements and architecture
-- For each algorithm, whose requirements are fulfilled should be usable (e.g. for tests, benchmarks)
+- At compile time we want to choose the right implementation depending on the dependencies and architecture
+- Each algorithm whose requirements are fulfilled should be usable (e.g. for tests, benchmarks)
